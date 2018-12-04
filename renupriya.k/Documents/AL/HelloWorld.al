@@ -19,6 +19,7 @@ page 51112 CustCard
                 {
                     //LookupPageId = "Customer List";
                     TableRelation = Customer.id;
+                    
                 }
             }
         }
@@ -26,6 +27,7 @@ page 51112 CustCard
     trigger OnOpenPage();
     begin
         Message('App published: Hello world');
+        Message('GitConfig success');
     end;
 
 }
